@@ -10,7 +10,7 @@
 1. Clone GitHub repository. _You can run this command on your console_
 
 ```
-git clone https://github.com/jfdev26/data-warehouse.git
+git clone https://github.com/jfdev26/Data_warehouse
 ```
 
 2. Install all necesary packages. _You can run this command on your console_
