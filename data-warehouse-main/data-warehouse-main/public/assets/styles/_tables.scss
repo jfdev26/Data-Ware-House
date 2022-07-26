@@ -1,0 +1,124 @@
+.table {
+  list-style: none;
+  overflow: hidden;
+  .table-header {
+    align-items: center;
+    background-color: $color2;
+    border-bottom: 1px solid #000;
+    border-radius: 1rem;
+    color: $color3;
+    display: flex;
+    font-family: "Mulish", sans-serif;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 0.2rem 1rem;
+    .inputs {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      text-align: right;
+      .inputs-hide {
+        align-items: center;
+        display: flex;
+        overflow: hidden;
+        input {
+          background-color: transparent;
+          border: none;
+          border-bottom: 1px solid $color3;
+          color: $color3;
+          font-family: "Josefin Sans", sans-serif;
+          font-weight: 300;
+          outline: none;
+        }
+        input::placeholder {
+          color: $color3;
+          font-family: "Josefin Sans", sans-serif;
+          font-weight: 300;
+        }
+        .fa-search {
+          font-size: 0.8rem;
+        }
+        .fa-plus-square {
+          margin-left: 1rem;
+        }
+      }
+      .fa-angle-down {
+        margin-left: 2rem;
+      }
+      .fas:hover {
+        color: #000;
+        cursor: pointer;
+      }
+    }
+  }
+  .table-data {
+    align-items: center;
+    background-color: $color4;
+    border-bottom: 1px solid #000;
+    border-radius: 1rem;
+    display: grid;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    grid-template-columns: 1fr 0.1fr;
+    margin: 0 1rem 0.5rem 1rem;
+    padding: 0.2rem 1rem;
+    text-align: left;
+    .table-data-x2 {
+      display: grid;
+      grid-template-columns: 30px 250px;
+      text-align: left;
+    }
+    .table-data-x3 {
+      display: grid;
+      grid-template-columns: 30px repeat(2, 250px);
+      text-align: left;
+    }
+    .table-data-x4 {
+      display: grid;
+      grid-template-columns: 30px repeat(3, 250px);
+      text-align: left;
+    }
+    .table-data-x6 {
+      display: grid;
+      grid-template-columns: 30px repeat(5, 1fr);
+      text-align: left;
+    }
+    .table-data-x7 {
+      display: grid;
+      grid-template-columns: 30px repeat(6, 1fr);
+      text-align: left;
+    }
+    div {
+      text-align: right;
+      .fas {
+        margin-left: 0.5rem;
+      }
+      .fas:hover {
+        color: $color3;
+        cursor: pointer;
+      }
+    }
+  }
+  .interest0::before {
+    content: " \2606   - ";
+  }
+  .interest25::before {
+    content: " \2606 \2606   - ";
+  }
+  .interest50::before {
+    content: " \2606 \2606 \2606   - ";
+  }
+  .interest75::before {
+    content: " \2606 \2606 \2606 \2606   - ";
+  }
+  .interest100::before {
+    content: " \2606 \2606 \2606 \2606 \2606   - ";
+  }
+  .table-data:hover {
+    background-color: $color2;
+    color: $color3;
+    .fas {
+      color: #000;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+#response-container {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+#response {
+  border-radius: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  background-color: #00ff0066;
+  .fas {
+    margin-right: 0.5rem;
+  }
+}
+.response-error {
+  background-color: #ff000066 !important;
+}

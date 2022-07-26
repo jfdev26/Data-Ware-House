@@ -1,0 +1,35 @@
+{
+  "name": "data-warehouse",
+  "version": "1.0.0",
+  "description": "proyect4_acamica",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jfdev26/data_warehouse"
+  },
+  "keywords": [
+    "data warehouse",
+    "acamica"
+  ],
+  "author": "jfdev@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfdev26/data_warehouse/issues"
+  },
+  "homepage": "https://github.com/jfdev26/data_warehouse#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.5.4",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
