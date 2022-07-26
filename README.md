@@ -1,6 +1,5 @@
 # Data-Warehouse
 
-## [Pla Benjamin](https://www.linkedin.com/in/benjamin-pla/)
 
 ### You will need
 
@@ -11,7 +10,7 @@
 1. Clone GitHub repository. _You can run this command on your console_
 
 ```
-git clone https://github.com/benjaminPla/data-warehouse.git
+git clone https://github.com/jfdev26/data-warehouse.git
 ```
 
 2. Install all necesary packages. _You can run this command on your console_
